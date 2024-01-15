@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>Todo</title>
+</head>
+<link rel="stylesheet" href="list.css">
+<body>
+    <div id="wrapper">
+        <!-- <canvas id="canvas" width="100vw" height="100vh"></canvas>  -->
+        <img src="1536530.jpg" id="bgimage" style="opacity:0.8;">
+        <div id="todo-container">
+            <h2>To-Do List</h2>
+            <input placeholder="Add ur task" id="input-todo">
+            <input type="date" id="input-date">
+            <input type="time" id="input-time">
+            <button id="add-btn">Add</button>
+            <div id="addedtask"></div>
+        </div>
+        <div id="editask">
+                <label for="editname">Task Name:</label>
+                <input type="text" id="editname"><br>
+                <label for="editname">Task Time:</label>
+                <input type="text" id="edittime"><br>
+                <label for="editname">Task Date:</label>
+                <input type="text" id="editdate"><br>
+                <button id="save">SAVE</button>
+                <button id="cancel">CANCEL</button>
+        </div>
+        <div id="over"></div>
+    </div>
+</body>
+<script src="list.js"></script>
+</html>

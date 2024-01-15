@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(55, 50, 186, 0.361);
+    background: linear-gradient(90deg,rgba(30,27,118,1)10%,rgba(25,74,109,1)50%,rgba(0,212,255,1)100%);
+}
+#wrapper{
+    position:relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    vertical-align: top;
+    margin: 0 auto;
+}
+#todo-container{
+    position: absolute;
+    padding:10px 10px 10px 10px;
+    border: 1px solid rgb(247, 254, 254);
+    background-color: rgb(252, 252, 255);
+    border-radius: 3px;
+    margin:30px 0px 0px 30px;
+    
+}
+#bgimage{
+    position:absolute;
+    background-position:left;
+    background-size: cover;
+    z-index: -1;
+}
+#newtask-container,h2{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 5px 5px 5px;
+}
+#date,#time{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+#editask{
+    display: none;
+    position: fixed;
+    left: 50%;
+    color: rgb(253, 253, 253);
+    padding: 0px 30px 30px 30px;
+    margin:10px 10px 0px 30px;
+    background-color: rgba(234, 237, 236, 0);
+    z-index: 1;
+    font-family:'Courier New', Courier, monospace;
+}
+#editname,#edittime,#editdate,#save,#cancel{
+    margin-top: 30px;
+}
+button{
+    background-color:white;
+    border: 1px solid black;
+    color: rgba(255, 0, 0, 0.712);
+    padding:5px 9px 5px 9px;
+    font-family:'Courier New', Courier, monospace;
+    transition: background-color 0.7;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: black;
+    border: 1px solid rgb(200, 37, 37);
+}
+/* #canvas{
+    display: block;
+    margin:0 auto;
+    background: transparent;
+    z-index:1;
+    
+} */
